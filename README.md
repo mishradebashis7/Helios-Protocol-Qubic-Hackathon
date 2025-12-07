@@ -1,40 +1,31 @@
-# 🌍 Helios Protocol | AI Earth Node
+# 🌞 Helios Protocol: The AI Earth Node
+### Infrastructure Arbitrage for the Qubic Network
 
-> **Winner - Qubic "Hack the Future" 2025**
-> *Infrastructure Arbitrage: Turning Stranded Solar Energy into Distributed Intelligence.*
+**Helios Protocol** is a decentralized software node that converts "Stranded Energy" (wasted solar power) into Distributed Artificial Intelligence.
 
-![Helios Dashboard](https://via.placeholder.com/1200x600/0b0f19/10b981?text=Helios+Protocol+Dashboard)
+![Dashboard Screenshot](./dashboard.png)
 
-## 🚀 The Problem & Solution
-* **The Crisis:** Solar panels generate too much power at noon ("The Duck Curve"), forcing grids to waste (curtail) energy.
-* **The Bottleneck:** AI companies are running out of data centers and power.
-* **The Helios Solution:** A decentralized protocol that uses the **Qubic Network** to transmit "Useful Proof-of-Work" (AI Training) to homes with excess solar energy. We turn sunlight into intelligence.
+## 🏆 The Problem: The Duck Curve
+At noon, residential solar panels generate 400% more energy than a home consumes. This creates a "Duck Curve" where utilities must curtail (waste) clean energy. Meanwhile, the AI industry is facing a massive shortage of compute power.
 
----
+## 💡 The Solution
+Helios detects when a home battery hits 100% charge. Instead of letting the inverter clip the excess energy, it automatically spins up a **PyTorch Neural Node**. It performs "Useful Proof-of-Work" (AI Training) for the Qubic Network, monetizing the sunlight instantly.
 
-## 🛠️ Tech Stack
+## ⚙️ Tech Stack
+* **Frontend:** React, Vite, Tailwind CSS, Recharts (Physics Simulation).
+* **Backend:** Python, FastAPI (Energy Logic).
+* **AI Engine:** PyTorch (Real-time Gradient Descent).
+* **Blockchain:** C++ (Mock Qubic Smart Contract).
 
-### **1. Frontend (The Command Center)**
-* **React + Vite:** Ultra-fast UI.
-* **Tailwind CSS:** Glassmorphism design system.
-* **Recharts:** Real-time data visualization.
+## 🚀 How to Run (Localhost)
+1.  **Clone the Repo:**
+    `git clone https://github.com/mishradebashis7/Helios-Protocol-Qubic-Hackathon.git`
+2.  **Start Backend:**
+    `cd Helios-Backend && python -m uvicorn main:app --reload`
+3.  **Start Frontend:**
+    `cd Helios-Final-Frontend && npm install && npm run dev`
+4.  **Login:**
+    Use any Wallet ID (e.g., `QUBIC-MINER-01`) or click "Sign in with Google".
 
-### **2. Backend (The Brain)**
-* **Python (FastAPI):** Orchestrates the mining logic.
-* **PyTorch:** Runs the actual Neural Network training (LSTM/Linear models).
-* **Threading:** Multi-threaded architecture to mine and serve API requests simultaneously.
-
-### **3. Blockchain Layer (The Trust)**
-* **Qubic Smart Contract (C++):** Validates the "Useful Work" and handles payouts.
-* **Consensus:** "Follow-the-Sun" relay mechanism.
-
----
-
-## ⚡ How to Run Locally
-
-### **Step 1: Start the AI Node (Backend)**
-This simulates the physical device (Inverter + GPU).
-```bash
-cd Helios-Backend
-pip install -r requirements.txt
-python -m uvicorn main:app --reload --port 8000
+## 🎥 Video Demo
+[LINK TO YOUR YOUTUBE/LOOM VIDEO HERE]
