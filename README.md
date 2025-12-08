@@ -28,4 +28,4 @@ Helios detects when a home battery hits 100% charge. Instead of letting the inve
     Use any Wallet ID (e.g., `QUBIC-MINER-01`) or click "Sign in with Google".
 
 ## 🎥 Video Demo
-[LINK TO YOUR YOUTUBE/LOOM VIDEO HERE]
+[https://www.youtube.com/watch?v=6QTfsUfw02o]
